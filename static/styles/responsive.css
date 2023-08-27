@@ -1,0 +1,195 @@
+@media only screen and (max-width: 1200px) {
+    #my-btn {
+        font-size: 2vw;
+    }
+
+    #nav-bar {
+        flex-direction: column;
+    }
+
+    #nav-bar h2 a {
+        font-size: 5vw;
+    }
+
+    #nav-bar ul li a {
+        display: inline;
+        font-size: 2vw;
+        margin: calc(0.5rem + 1vw);
+    }
+
+    #container {
+        align-items: center;
+        padding: 4vw;
+    }
+
+    #container>h1 {
+        font-size: 20vw;
+    }
+
+    #container>p {
+        font-size: 2vw;
+        width: 90vw;
+        text-align: center;
+    }
+
+    #container>a {
+        font-size: 2vw;
+    }
+
+    #about {
+        padding: 2vw;
+    }
+
+    #about h1,
+    #about p {
+        width: 90vw;
+    }
+
+    #about h1 {
+        font-size: 10vw;
+    }
+
+    #about p {
+        font-size: 3vw;
+        line-height: 3.75vw;
+    }
+
+    .timeline-section h1 {
+        font-size: 10vw;
+    }
+
+    .timeline-date {
+        font-size: 2rem;
+        margin: 0vw 0 0.5vw;
+    }
+
+    .timeline-content>h3 {
+        font-size: 2vw;
+    }
+
+    .timeline-content>span {
+        font-size: 1.5vw;
+    }
+
+    .timeline-content>p {
+        font-size: 1vw;
+    }
+
+    #contact h1 {
+        font-size: 10vw;
+    }
+
+    .img-logo {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    footer p {
+        font-size: min(1vw, 2rem);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #nav-bar {
+        padding: 0;
+    }
+
+    #nav-bar h2 a {
+        font-size: 8vw;
+    }
+
+    #nav-bar ul li a {
+        font-size: 3vw;
+    }
+
+    #container {
+        padding: 0;
+    }
+
+    #container>p {
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    #container>a {
+        font-size: 3vw;
+    }
+
+    #about {
+        padding: 7vw 2vw;
+    }
+
+    #about h1,
+    #about p {
+        width: auto;
+    }
+
+    #about h1 {
+        font-size: 8vw;
+    }
+
+    #about p {
+        font-size: calc(0.5rem + 1vw);
+        line-height: 150%;
+    }
+
+    .timeline-content>h3 {
+        font-size: 4vw;
+    }
+
+    .timeline-content>span {
+        font-size: 3vw;
+    }
+
+    .timeline-content>p {
+        font-size: 2vw;
+    }
+
+    #contact h1 {
+        font-size: 8vw;
+    }
+
+    #contact div a {
+        margin: 0 1.5rem;
+        padding: 0.7vw;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #contact {
+        padding: 0.5vw;
+        padding-top: 5vw;
+    }
+
+    #contact div {
+        margin-top: 5vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .timeline-section h1 {
+        font-size: 12vw;
+    }
+
+    .timeline-content {
+        font-size: 3vw;
+    }
+
+    .timeline-items::before {
+        left: 7px;
+    }
+
+    .timeline-item:nth-child(odd) {
+        padding-right: 0;
+        text-align: left;
+    }
+
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        padding-left: 37px;
+    }
+
+    .timeline-dot {
+        left: 0;
+    }
+}
